@@ -50,20 +50,36 @@ pics {
   background-color: olivedrab;
 }
 
-products {
+#ame-window {
+  width: 30%;
+  height: 30%;
+}
+
+#nookhoosei {
+  width: 30%;
+  height: 30%;
+}
+
+blurbs {
   background-color: purple;
+  display: flex;
 }
 
 blurb {
   background-color: green;
+  display: flex;
+  flex-direction: column;
 }
 
 blurbtitle {
   background-color: teal;
+  font-size: medium;
 }
 
 p {
   background-color: rgb(202, 29, 38);
+  display: flex;
+  flex-direction: column;
 }
 
 text {
