@@ -1,6 +1,9 @@
 body {
   display: flex;
   flex-direction: column;
+  max-height: 100vh;
+  max-width: 100%;
+  background-color: brown;
 }
 
 header {
@@ -36,4 +39,41 @@ nav {
 
 page {
   padding: 5px;
+  background-color: teal;
+}
+
+main {
+  background-color: tomato;
+}
+
+pics {
+  background-color: olivedrab;
+}
+
+products {
+  background-color: purple;
+}
+
+blurb {
+  background-color: green;
+}
+
+blurbtitle {
+  background-color: teal;
+}
+
+p {
+  background-color: rgb(202, 29, 38);
+}
+
+text {
+  background-color: blue;
+}
+
+h2 {
+  background-color: blueviolet;
+}
+
+footer {
+  background-color: pink;
 }
