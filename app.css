@@ -48,16 +48,20 @@ main {
 
 pics {
   background-color: olivedrab;
+  display: grid;
+  grid-template: 30% 1fr / 1fr;
 }
 
 #ame-window {
   width: 30%;
   height: 30%;
+  /* padding: 5%; */
 }
 
 #nookhoosei {
-  width: 30%;
-  height: 30%;
+  width: 52%;
+  height: 72%;
+  /* padding: 5%; */
 }
 
 blurbs {
