@@ -33,8 +33,12 @@ slogan {
 nav {
   display: flex;
   justify-content: space-around;
-  padding: 20px;
   background-color: gray;
+}
+
+a {
+  text-decoration: none;
+  padding: 10px;
 }
 
 page {
@@ -44,23 +48,24 @@ page {
 
 main {
   background-color: tomato;
+  padding: 30px 93px;
 }
 
-pics {
+.pics {
   background-color: olivedrab;
-  display: grid;
-  grid-template: 30% 1fr / 1fr;
+  display: flex;
+  justify-content: center;
 }
 
 #ame-window {
-  width: 30%;
-  height: 30%;
-  /* padding: 5%; */
+  width: 315px;
+  height: 300px;
+  padding-right: 10px;
 }
 
 #nookhoosei {
-  width: 52%;
-  height: 72%;
+  width: 630px;
+  height: 300px;
   /* padding: 5%; */
 }
 
